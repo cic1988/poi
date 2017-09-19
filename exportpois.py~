@@ -63,7 +63,7 @@ if __name__ == "__main__":
 		doExport = True
 
 		# check if file exists
-		if os.path.exists(filename) is True:
+		if os.path.exists(filename) == True:
     			doExport = input("%s exists, are you sure to overwrite it? y(yes): " % (filename)) == "y"
 
 		if doExport is True:
